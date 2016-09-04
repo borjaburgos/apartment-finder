@@ -75,7 +75,7 @@ BOXES = {
 # one of the boxes you defined, it will be checked to see if the neighborhood name it was listed under matches one
 # of these.  This is less accurate than the boxes, because it relies on the owner to set the right neighborhood,
 # but it also catches listings that don't have coordinates (many listings are missing this info).
-NEIGHBORHOODS = ["burlingame", "foster city", "millbrae", "san bruno", "san mateo"]
+NEIGHBORHOODS = ["burlingame", "millbrae", "san bruno", "san mateo", "san carlos", "belmont", "redwood city"]
 
 ## Transit preferences
 
@@ -89,7 +89,10 @@ TRANSIT_STATIONS = {
     "burlingame_caltrain": [37.5799421,-122.3472424],
     "broadway_caltrain": [37.5799421,-122.3625632],
     "sanbruno_caltrain": [37.6354673,-122.4219691],
-    "sanmateo_caltrain": [37.5678222,-122.3259203]
+    "sanmateo_caltrain": [37.5678222,-122.3259203],
+    "redwood_caltrain": [37.4854555,-122.2341614],
+    "belmont_caltrain": [37.5212985,-122.2785551],
+    "sancarlos_caltrain": [37.5076804,-122.262698]
 }
 
 ## Search type preferences
